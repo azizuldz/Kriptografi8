@@ -121,5 +121,8 @@ function affineEncrypt($text, $a, $b) {
 ![ Affine](https://github.com/azizuldz/Kriptografi8/blob/main/Screenshots/affine.PNG)
 
 ---------------------------------------------------------------
+ ## Tampilan
+    
 
+![ Affine](https://github.com/azizuldz/Kriptografi8/blob/main/Screenshots/tampilan.PNG)
 
