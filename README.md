@@ -22,14 +22,15 @@ Ciri-ciri utama dari Affine Cipher:
 ## Mari mulai
 ### penjelasan program
 
-#### 1) Form
+# 1) Form
 ######  :
  # Formulir Ini untuk Memasukan atau menambahkan data Nama, Alamat dan Password yang akan di simpan ke database.
  # lalu akan di peroses dengan rumus affine cipher.
 
  # Proses.php
- '''
- <?php
+
+ 
+ '''<?php
 require('database.php');
 require('affine_cipher.php');
 
@@ -58,9 +59,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Tutup koneksi database
     $conn->close();
 }
-?>
+?> '''
 
- '''
   
 ## Screenshots
 
@@ -68,21 +68,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 ---------------------------------------------------------------
-#### 1) Database
+# 1) Database
 ######  :
- # Database ini untuk menyimpan data yang telah di enkripsi dengan rumus affine cipher.
- # lalu akan di peroses dengan rumus affine cipher.
- # Database.php
+  Database ini untuk menyimpan data yang telah di enkripsi dengan rumus affine cipher.
+  lalu akan di peroses dengan rumus affine cipher.
+  Database.php
 
 ![ database](https://github.com/azizuldz/Kriptografi8/blob/main/Screenshots/db.PNG)
 
 
- # Pada kolom Password terdapat data yang telah di enkripsi dengan rumus affine cipher.
+ Pada kolom Password terdapat data yang telah di enkripsi dengan rumus affine cipher.
+ Saya telah mencoba men Ecrypt plaintext Password = Jacksp@RROW dengan hasil nya(Wdnbpa@KKVJ) 
+ menggunakan Slope(a) = 5 dan Intercept(b) = 3.
+
+---------------------------------------------------------------
+ ## Akurasi
+    Mempastiakn bahwa data yang telah di enkripsi dengan rumus affine cipher dapat di dekripsi kembali.
+    dengan menggunakan rumus affine cipher.
+    Pada data abse nya nampak cocok dengan encoder onlien Affine cipher 
+
+![ Affine](https://github.com/azizuldz/Kriptografi8/blob/main/Screenshots/affine.PNG)
 
 ---------------------------------------------------------------
 
 
-
----------------------------------------------------------------
-
-![ berhasil](https://github.com/azizuldz/kriptografi2/blob/main/vigenere_ss/done.PNG)
